@@ -6,54 +6,54 @@
   <title>Total Deutsch | ARCO A1</title>
 
   <!-- Splash screens iOS / iPadOS -->
-<link rel="apple-touch-startup-image"
-      href="/iphone_640x1136.png"
-      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_640x1136.png"
+        media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/iphone_750x1334.png"
-      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_750x1334.png"
+        media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/iphone_828x1792.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_828x1792.png"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/iphone_1125x2436.png"
-      media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_1125x2436.png"
+        media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/iphone_1170x2532.png"
-      media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_1170x2532.png"
+        media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/iphone_1242x2688.png"
-      media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_1242x2688.png"
+        media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/iphone_1284x2778.png"
-      media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/iphone_1284x2778.png"
+        media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
 
-<!-- iPads -->
-<link rel="apple-touch-startup-image"
-      href="/ipad_1536x2048.png"
-      media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <!-- iPads -->
+  <link rel="apple-touch-startup-image"
+        href="/ipad_1536x2048.png"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/ipad_1668x2224.png"
-      media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/ipad_1668x2224.png"
+        media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/ipad_1668x2388.png"
-      media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/ipad_1668x2388.png"
+        media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
-<link rel="apple-touch-startup-image"
-      href="/ipad_2048x2732.png"
-      media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image"
+        href="/ipad_2048x2732.png"
+        media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
 
   <!-- Ícones -->
   <link rel="icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,7 +81,33 @@
 </head>
 
 <body class="bg-gray-100">
+  <!-- SPLASH DE ABERTURA -->
+  <div
+    id="splash"
+    class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#facc15] text-slate-900 transition-opacity duration-700"
+  >
+    <div class="animate-pulse mb-4 text-4xl md:text-5xl font-black tracking-tight text-center">
+      Alemão Sem Segredo
+    </div>
+    <p class="text-base font-medium text-center max-w-xs">
+      Willkommen. Hoje você dá mais um passo no alemão.
+    </p>
+  </div>
+
   <div id="root"></div>
+
   <script type="module" src="/index.tsx"></script>
+
+  <script>
+    window.addEventListener("load", () => {
+      const splash = document.getElementById("splash");
+      if (!splash) return;
+      setTimeout(() => {
+        splash.classList.add("opacity-0", "pointer-events-none");
+        setTimeout(() => splash.remove(), 700);
+      }, 1200);
+    });
+  </script>
 </body>
 </html>
+
