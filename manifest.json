@@ -1,0 +1,17 @@
+
+{
+  "short_name": "Total Deutsch A1",
+  "name": "Total Deutsch | ARCO A1",
+  "description": "An application for German students to track their progress.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#B91C1C",
+  "background_color": "#f9fafb"
+}

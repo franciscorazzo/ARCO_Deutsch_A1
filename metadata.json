@@ -1,0 +1,5 @@
+{
+  "name": "ARCO Deutsch A1_",
+  "description": "An application for German students to track their progress through lessons, manage study time with a Pomodoro timer, and complete learning objectives. It includes features for earning XP, managing tasks, and exporting/importing progress.",
+  "requestFramePermissions": []
+}
